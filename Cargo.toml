@@ -8,9 +8,9 @@ edition = "2021"
 
 [dependencies]
 # dioxus-web = { version = "0.4" }
-dioxus-web = { path = "../dioxus/packages/web" }
+dioxus-web = { git = "https://github.com/syrflover/dioxus", branch = "fix-derive-props-with-const-generics" }
 # dioxus = { version = "0.4" }
-dioxus = { path = "../dioxus/packages/dioxus" }
+dioxus = { git = "https://github.com/syrflover/dioxus", branch = "fix-derive-props-with-const-generics" }
 
 # Debug
 log = "0.4.19"
